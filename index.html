@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html data-ng-app="angularjs">
+<head>
+
+    <!-- Meta-Information -->
+    <title>Movie Plaza</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="IndustryVertical">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Vendor: Bootstrap and Font Awesome Stylesheets http://getbootstrap.com -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Our Website CSS Styles -->
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body data-ng-controller="MoviePlazaController">
+
+    <!-- Our Website Content Goes Here -->
+    <div data-ng-include='"partials/header.html"'></div>
+    <div data-ng-view class="container"></div>
+    <!--div ng-include='"partials/footer.html"'></div-->
+    
+    <!-- Vendor: Javascripts -->
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/bootstrap.js"></script>
+    <script src="js/lib/angular.js"></script>
+    <script src="js/lib/angular-route.js"></script>
+    <script src="js/lib/angular-resource.js"></script>
+
+    <!-- Our Website Javascripts -->
+    <script src="js/app.js"></script>
+    <script src="js/controller/controllers.js"></script>
+    <script src="js/service/services.js"></script>
+    <script src="js/router/routes.js"></script>
+
+</body>
+</html>

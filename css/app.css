@@ -1,0 +1,53 @@
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pull-right {
+    padding-top: 8px;
+}
+.social-icon {
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #ccc;
+}
+.fa-facebook {
+    background-color: #3b5998;
+}
+.fa-twitter {
+    background-color: #4099ff;
+}
+.fa-google-plus {
+    background-color:  #d34836;
+}
+
+footer {
+     background-color: #e56717;
+}
+
+footer .container{
+    height: 30px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	color:white;
+    text-align: center;
+}
+
+.thumb-big
+{
+    height: 200px;
+}
+.movies-list
+{
+    text-align: center;
+}
+.availability
+{
+    padding: 9px;
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+}
